@@ -1,11 +1,18 @@
 .post {
   container-type: inline-size;
   container-name: sidebar;
+  bad-rule: 2rem;
 }
 
 @container sidebar (min-width: 700px) {
   .card {
     width: 10pixels;
     font-size: 2em;
+  }
+}
+
+@bad-rule (min-width: 700px) {
+  .test {
+    width: 3rem;
   }
 }
