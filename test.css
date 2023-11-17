@@ -5,6 +5,7 @@
 
 @container sidebar (min-width: 700px) {
   .card {
+    width: 10pixels;
     font-size: 2em;
   }
 }
